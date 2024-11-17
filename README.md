@@ -11,3 +11,19 @@ https://colab.research.google.com/github/Samuel-Brzozowski/get-windows-password-
 
 To get Windows SAM and SYSTEM files, enter these commands:
 
+del "c:\sam"
+
+del "%HOMEPATH%\Desktop\SAM"
+
+reg save hklm\sam c:\sam
+
+copy "c:\sam" "%HOMEPATH%\Desktop\SAM"
+
+del "c:\system"
+
+del "%HOMEPATH%\Desktop\SYSTEM"
+
+reg save hklm\system c:\system
+
+copy "c:\system" "%HOMEPATH%\Desktop\SYSTEM"
+
