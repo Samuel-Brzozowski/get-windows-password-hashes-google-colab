@@ -7,3 +7,7 @@ https://colab.research.google.com/github/Samuel-Brzozowski/get-windows-password-
 
 # samdump2
 
+https://colab.research.google.com/github/Samuel-Brzozowski/get-windows-password-hashes-google-colab/blob/main/samdump2_return_windows_password_hashes.ipynb
+
+To get Windows SAM and SYSTEM files, enter these commands:
+
